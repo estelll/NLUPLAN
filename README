@@ -1,0 +1,30 @@
+* 说明
+/code 代码
+/data 数据
+/model 模型参数
+/log 训练日志
+/output 评测f1值的时候的中间输出
+/metric 评测p r f1的perl脚本
+/results 结果
+
+* code
+执行nlu.py，输入需要打标的句子，会输出打标结果。同时会输出到nlu.log里去。
+
+
+* data
+# XX是不是你们投资的？
+# XX公司是你们投资的吗？
+# XX公司是你们什么时候投资的？
+# 谁投资的XX公司？
+# 你们有没有投资XX公司？
+# 你们有投资XX公司吗？
+# 你们投资了XX公司吗？
+# XX公司被你们投资了吗？
+公司名字为：
+['七牛', '名片提名王','薄荷', '英语流利说', 'UCloud', 'Stringkly', 'Ruff', 'Glow']
+共64条语料
+标识出company | investor | relation | ask-time四个槽
+
+* 其他
+语料太少了，结果很容易过拟合
+前期没有什么语料可以直接用规则的方法

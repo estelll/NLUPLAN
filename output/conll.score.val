@@ -1,0 +1,7 @@
+processed 642 tokens with 200 phrases; found: 200 phrases; correct: 200.
+accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+     ask-investor: precision: 100.00%; recall: 100.00%; FB1: 100.00  8
+         ask-time: precision: 100.00%; recall: 100.00%; FB1: 100.00  8
+          company: precision: 100.00%; recall: 100.00%; FB1: 100.00  64
+         investor: precision: 100.00%; recall: 100.00%; FB1: 100.00  56
+         relation: precision: 100.00%; recall: 100.00%; FB1: 100.00  64

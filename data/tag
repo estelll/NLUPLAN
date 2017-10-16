@@ -1,0 +1,64 @@
+B-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	O	O
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	O
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	O	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	O	O
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	O
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+B-company	I-company	I-company	I-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+B-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O	O
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	O
+B-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O	O
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	O	O
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-ask-investor	B-relation	I-relation	O	B-company	O
+B-ask-investor	B-relation	I-relation	O	B-company	O
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+B-company	I-company	I-company	I-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+B-ask-investor	B-relation	I-relation	O	B-company	O
+B-ask-investor	B-relation	I-relation	O	B-company	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O

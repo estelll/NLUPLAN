@@ -1,0 +1,262 @@
+Applying Parameters:
+log_dir : D:\local_onedrive\Project\lizhuohuan\log
+dropout_keep_prob : 1.0
+eval_script : D:\local_onedrive\Project\lizhuohuan\metric/conlleval.pl
+patience : 30
+num_layers : 1
+learning_rate : 0.05
+size : 32
+output_dir : D:\local_onedrive\Project\lizhuohuan\output
+alpha : 0.8
+delta : 2
+train_dir : D:\local_onedrive\Project\lizhuohuan\model
+early_stop : True
+data_dir : D:\local_onedrive\Project\lizhuohuan\data
+num_normalized : False
+batch_size : 8
+max_training_steps : 200
+step_per_summary : 1
+max_gradient_norm : 5.0
+max_sequence_length : 15
+result_dir : D:\local_onedrive\Project\lizhuohuan\results
+step_per_checkpoint : 1
+word_embedding_size : 100
+continue_training : False
+low_frequency : 0
+=========================================================
+EPOCH:0 Step 1 step-time 0.0420. Epoch loss 307.1653
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:1 Step 2 step-time 0.0102. Epoch loss 300.0945
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:2 Step 3 step-time 0.0090. Epoch loss 285.9633
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:3 Step 4 step-time 0.0090. Epoch loss 279.5386
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:4 Step 5 step-time 0.0090. Epoch loss 263.6275
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:5 Step 6 step-time 0.0095. Epoch loss 261.8324
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:6 Step 7 step-time 0.0080. Epoch loss 252.0488
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:7 Step 8 step-time 0.0090. Epoch loss 234.1396
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:8 Step 9 step-time 0.0080. Epoch loss 229.6072
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:9 Step 10 step-time 0.0090. Epoch loss 216.7968
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:10 Step 11 step-time 0.0090. Epoch loss 239.0804
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:11 Step 12 step-time 0.0090. Epoch loss 213.6132
+val	LABEL A:32.8700 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:12 Step 13 step-time 0.0090. Epoch loss 217.1773
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:13 Step 14 step-time 0.0100. Epoch loss 201.2438
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:14 Step 15 step-time 0.0090. Epoch loss 206.0560
+val	LABEL A:31.4600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:15 Step 16 step-time 0.0105. Epoch loss 181.3890
+val	LABEL A:31.4600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:16 Step 17 step-time 0.0090. Epoch loss 182.3674
+val	LABEL A:31.6200 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:17 Step 18 step-time 0.0085. Epoch loss 183.3478
+val	LABEL A:31.4600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:18 Step 19 step-time 0.0090. Epoch loss 165.7964
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:19 Step 20 step-time 0.0090. Epoch loss 180.3037
+val	LABEL A:31.4600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:20 Step 21 step-time 0.0090. Epoch loss 165.4529
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:21 Step 22 step-time 0.0110. Epoch loss 177.5847
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:22 Step 23 step-time 0.0090. Epoch loss 191.9594
+val	LABEL A:32.0900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:23 Step 24 step-time 0.0090. Epoch loss 167.5425
+val	LABEL A:33.6400 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:24 Step 25 step-time 0.0085. Epoch loss 179.2275
+val	LABEL A:36.2900 P:42.1100 R:4.0000 F1 score:7.3100
+EPOCH:25 Step 26 step-time 0.0090. Epoch loss 154.6790
+val	LABEL A:33.9600 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:26 Step 27 step-time 0.0080. Epoch loss 144.1645
+val	LABEL A:37.6900 P:0.0000 R:0.0000 F1 score:0.0000
+EPOCH:27 Step 28 step-time 0.0090. Epoch loss 162.2703
+val	LABEL A:43.6100 P:21.8200 R:6.0000 F1 score:9.4100
+EPOCH:28 Step 29 step-time 0.0090. Epoch loss 146.2062
+val	LABEL A:41.4300 P:18.6000 R:4.0000 F1 score:6.5800
+EPOCH:29 Step 30 step-time 0.0100. Epoch loss 130.9862
+val	LABEL A:42.8300 P:18.5200 R:5.0000 F1 score:7.8700
+EPOCH:30 Step 31 step-time 0.0089. Epoch loss 132.7394
+val	LABEL A:53.7400 P:44.1200 R:22.5000 F1 score:29.8000
+EPOCH:31 Step 32 step-time 0.0093. Epoch loss 126.4906
+val	LABEL A:49.2200 P:44.8700 R:17.5000 F1 score:25.1800
+EPOCH:32 Step 33 step-time 0.0090. Epoch loss 164.2309
+val	LABEL A:60.7500 P:61.1600 R:37.0000 F1 score:46.1100
+EPOCH:33 Step 34 step-time 0.0080. Epoch loss 155.4359
+val	LABEL A:51.0900 P:49.4300 R:21.5000 F1 score:29.9700
+EPOCH:34 Step 35 step-time 0.0080. Epoch loss 146.6855
+val	LABEL A:61.3700 P:58.8200 R:40.0000 F1 score:47.6200
+EPOCH:35 Step 36 step-time 0.0100. Epoch loss 147.7405
+val	LABEL A:53.4300 P:46.3900 R:22.5000 F1 score:30.3000
+EPOCH:36 Step 37 step-time 0.0090. Epoch loss 119.5620
+val	LABEL A:61.2100 P:61.6700 R:37.0000 F1 score:46.2500
+EPOCH:37 Step 38 step-time 0.0090. Epoch loss 133.2870
+val	LABEL A:57.7900 P:64.4200 R:33.5000 F1 score:44.0800
+EPOCH:38 Step 39 step-time 0.0080. Epoch loss 112.2475
+val	LABEL A:61.2100 P:60.7700 R:39.5000 F1 score:47.8800
+EPOCH:39 Step 40 step-time 0.0090. Epoch loss 105.7555
+val	LABEL A:57.1700 P:65.6900 R:33.5000 F1 score:44.3700
+EPOCH:40 Step 41 step-time 0.0090. Epoch loss 126.0924
+val	LABEL A:70.5600 P:51.8300 R:42.5000 F1 score:46.7000
+EPOCH:41 Step 42 step-time 0.0090. Epoch loss 109.1513
+val	LABEL A:60.2800 P:67.8600 R:38.0000 F1 score:48.7200
+EPOCH:42 Step 43 step-time 0.0090. Epoch loss 127.2601
+val	LABEL A:73.0500 P:66.8700 R:55.5000 F1 score:60.6600
+EPOCH:43 Step 44 step-time 0.0083. Epoch loss 113.6563
+val	LABEL A:66.0400 P:86.6700 R:52.0000 F1 score:65.0000
+EPOCH:44 Step 45 step-time 0.0090. Epoch loss 114.5198
+val	LABEL A:77.4100 P:66.0600 R:54.5000 F1 score:59.7300
+EPOCH:45 Step 46 step-time 0.0080. Epoch loss 119.4087
+val	LABEL A:68.2200 P:83.8700 R:52.0000 F1 score:64.2000
+EPOCH:46 Step 47 step-time 0.0080. Epoch loss 102.4284
+val	LABEL A:78.8200 P:67.4700 R:56.0000 F1 score:61.2000
+EPOCH:47 Step 48 step-time 0.0080. Epoch loss 91.0378
+val	LABEL A:74.7700 P:67.3000 R:53.5000 F1 score:59.6100
+EPOCH:48 Step 49 step-time 0.0090. Epoch loss 89.5179
+val	LABEL A:81.6200 P:71.9100 R:64.0000 F1 score:67.7200
+EPOCH:49 Step 50 step-time 0.0090. Epoch loss 81.8864
+val	LABEL A:76.9500 P:71.1400 R:53.0000 F1 score:60.7400
+EPOCH:50 Step 51 step-time 0.0090. Epoch loss 90.4555
+val	LABEL A:79.1300 P:67.2600 R:56.5000 F1 score:61.4100
+EPOCH:51 Step 52 step-time 0.0080. Epoch loss 81.2080
+val	LABEL A:79.6000 P:66.2700 R:56.0000 F1 score:60.7000
+EPOCH:52 Step 53 step-time 0.0090. Epoch loss 85.7585
+val	LABEL A:81.9300 P:71.5900 R:63.0000 F1 score:67.0200
+EPOCH:53 Step 54 step-time 0.0090. Epoch loss 99.2571
+val	LABEL A:85.2000 P:77.5500 R:57.0000 F1 score:65.7100
+EPOCH:54 Step 55 step-time 0.0090. Epoch loss 72.1956
+val	LABEL A:83.4900 P:74.1800 R:67.5000 F1 score:70.6800
+EPOCH:55 Step 56 step-time 0.0090. Epoch loss 85.6202
+val	LABEL A:85.5100 P:76.0000 R:57.0000 F1 score:65.1400
+EPOCH:56 Step 57 step-time 0.0090. Epoch loss 62.3013
+val	LABEL A:83.4900 P:75.9400 R:71.0000 F1 score:73.3900
+EPOCH:57 Step 58 step-time 0.0090. Epoch loss 77.9972
+val	LABEL A:86.4500 P:76.6200 R:59.0000 F1 score:66.6700
+EPOCH:58 Step 59 step-time 0.0100. Epoch loss 56.1090
+val	LABEL A:83.3300 P:70.5200 R:61.0000 F1 score:65.4200
+EPOCH:59 Step 60 step-time 0.0090. Epoch loss 65.3484
+val	LABEL A:86.6000 P:72.9600 R:58.0000 F1 score:64.6200
+EPOCH:60 Step 61 step-time 0.0095. Epoch loss 56.4576
+val	LABEL A:84.4200 P:76.0600 R:71.5000 F1 score:73.7100
+EPOCH:61 Step 62 step-time 0.0080. Epoch loss 67.2820
+val	LABEL A:86.6000 P:77.5600 R:60.5000 F1 score:67.9800
+EPOCH:62 Step 63 step-time 0.0090. Epoch loss 49.2255
+val	LABEL A:85.3600 P:75.9600 R:69.5000 F1 score:72.5800
+EPOCH:63 Step 64 step-time 0.0090. Epoch loss 48.1011
+val	LABEL A:85.9800 P:73.8900 R:66.5000 F1 score:70.0000
+EPOCH:64 Step 65 step-time 0.0080. Epoch loss 61.4404
+val	LABEL A:88.0100 P:80.0000 R:70.0000 F1 score:74.6700
+EPOCH:65 Step 66 step-time 0.0090. Epoch loss 63.6106
+val	LABEL A:89.1000 P:78.7000 R:66.5000 F1 score:72.0900
+EPOCH:66 Step 67 step-time 0.0080. Epoch loss 52.3865
+val	LABEL A:90.5000 P:82.2200 R:74.0000 F1 score:77.8900
+EPOCH:67 Step 68 step-time 0.0090. Epoch loss 47.5396
+val	LABEL A:89.8800 P:74.8700 R:70.0000 F1 score:72.3500
+EPOCH:68 Step 69 step-time 0.0082. Epoch loss 52.3133
+val	LABEL A:91.2800 P:82.1200 R:73.5000 F1 score:77.5700
+EPOCH:69 Step 70 step-time 0.0090. Epoch loss 45.9061
+val	LABEL A:90.1900 P:81.0700 R:68.5000 F1 score:74.2500
+EPOCH:70 Step 71 step-time 0.0090. Epoch loss 40.2313
+val	LABEL A:90.5000 P:84.2700 R:75.0000 F1 score:79.3700
+EPOCH:71 Step 72 step-time 0.0090. Epoch loss 42.7003
+val	LABEL A:90.8100 P:81.8200 R:67.5000 F1 score:73.9700
+EPOCH:72 Step 73 step-time 0.0090. Epoch loss 42.1870
+val	LABEL A:91.5900 P:79.4600 R:73.5000 F1 score:76.3600
+EPOCH:73 Step 74 step-time 0.0085. Epoch loss 31.0962
+val	LABEL A:91.9000 P:84.2700 R:75.0000 F1 score:79.3700
+EPOCH:74 Step 75 step-time 0.0090. Epoch loss 45.2166
+val	LABEL A:91.7400 P:86.5200 R:77.0000 F1 score:81.4800
+EPOCH:75 Step 76 step-time 0.0100. Epoch loss 37.9101
+val	LABEL A:94.8600 P:84.7700 R:83.5000 F1 score:84.1300
+EPOCH:76 Step 77 step-time 0.0085. Epoch loss 45.0195
+val	LABEL A:94.0800 P:95.5100 R:85.0000 F1 score:89.9500
+EPOCH:77 Step 78 step-time 0.0090. Epoch loss 38.9771
+val	LABEL A:94.3900 P:92.2700 R:83.5000 F1 score:87.6600
+EPOCH:78 Step 79 step-time 0.0085. Epoch loss 32.4005
+val	LABEL A:96.1100 P:100.0000 R:92.0000 F1 score:95.8300
+EPOCH:79 Step 80 step-time 0.0100. Epoch loss 29.5930
+val	LABEL A:96.1100 P:91.8400 R:90.0000 F1 score:90.9100
+EPOCH:80 Step 81 step-time 0.0110. Epoch loss 32.1873
+val	LABEL A:95.6400 P:91.8400 R:90.0000 F1 score:90.9100
+EPOCH:81 Step 82 step-time 0.0090. Epoch loss 31.0455
+val	LABEL A:96.5700 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:82 Step 83 step-time 0.0090. Epoch loss 20.9364
+val	LABEL A:96.8800 P:92.8200 R:90.5000 F1 score:91.6500
+EPOCH:83 Step 84 step-time 0.0090. Epoch loss 26.1910
+val	LABEL A:96.5700 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:84 Step 85 step-time 0.0100. Epoch loss 29.1224
+val	LABEL A:97.2000 P:95.8300 R:92.0000 F1 score:93.8800
+EPOCH:85 Step 86 step-time 0.0081. Epoch loss 24.7970
+val	LABEL A:97.6600 P:98.9400 R:93.5000 F1 score:96.1400
+EPOCH:86 Step 87 step-time 0.0090. Epoch loss 16.4747
+val	LABEL A:97.6600 P:96.8100 R:91.0000 F1 score:93.8100
+EPOCH:87 Step 88 step-time 0.0090. Epoch loss 19.4376
+val	LABEL A:97.0400 P:92.8200 R:90.5000 F1 score:91.6500
+EPOCH:88 Step 89 step-time 0.0080. Epoch loss 19.2081
+val	LABEL A:98.1300 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:89 Step 90 step-time 0.0090. Epoch loss 26.8388
+val	LABEL A:98.1300 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:90 Step 91 step-time 0.0095. Epoch loss 25.3315
+val	LABEL A:97.8200 P:97.8900 R:93.0000 F1 score:95.3800
+EPOCH:91 Step 92 step-time 0.0086. Epoch loss 26.4979
+val	LABEL A:98.7500 P:100.0000 R:96.0000 F1 score:97.9600
+EPOCH:92 Step 93 step-time 0.0080. Epoch loss 16.5382
+val	LABEL A:98.1300 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:93 Step 94 step-time 0.0100. Epoch loss 22.1502
+val	LABEL A:98.7500 P:100.0000 R:96.0000 F1 score:97.9600
+EPOCH:94 Step 95 step-time 0.0090. Epoch loss 24.8826
+val	LABEL A:98.1300 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:95 Step 96 step-time 0.0080. Epoch loss 17.8701
+val	LABEL A:98.1300 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:96 Step 97 step-time 0.0085. Epoch loss 13.9580
+val	LABEL A:98.1300 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:97 Step 98 step-time 0.0090. Epoch loss 14.7932
+val	LABEL A:98.1300 P:100.0000 R:94.0000 F1 score:96.9100
+EPOCH:98 Step 99 step-time 0.0085. Epoch loss 11.8085
+val	LABEL A:97.9800 P:98.9400 R:93.5000 F1 score:96.1400
+EPOCH:99 Step 100 step-time 0.0090. Epoch loss 15.7495
+val	LABEL A:98.1300 P:95.9200 R:94.0000 F1 score:94.9500
+EPOCH:100 Step 101 step-time 0.0090. Epoch loss 16.7576
+val	LABEL A:98.7500 P:96.0000 R:96.0000 F1 score:96.0000
+EPOCH:101 Step 102 step-time 0.0100. Epoch loss 15.4891
+val	LABEL A:98.1300 P:95.9200 R:94.0000 F1 score:94.9500
+EPOCH:102 Step 103 step-time 0.0090. Epoch loss 15.3648
+val	LABEL A:98.7500 P:96.0000 R:96.0000 F1 score:96.0000
+EPOCH:103 Step 104 step-time 0.0088. Epoch loss 12.9833
+val	LABEL A:98.7500 P:96.0000 R:96.0000 F1 score:96.0000
+EPOCH:104 Step 105 step-time 0.0090. Epoch loss 10.5483
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:105 Step 106 step-time 0.0080. Epoch loss 9.2325
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:106 Step 107 step-time 0.0090. Epoch loss 8.6955
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:107 Step 108 step-time 0.0090. Epoch loss 12.9941
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:108 Step 109 step-time 0.0090. Epoch loss 6.5668
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:109 Step 110 step-time 0.0090. Epoch loss 8.0177
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:110 Step 111 step-time 0.0090. Epoch loss 5.7167
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:111 Step 112 step-time 0.0080. Epoch loss 8.4017
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:112 Step 113 step-time 0.0090. Epoch loss 11.1676
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:113 Step 114 step-time 0.0090. Epoch loss 11.3993
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:114 Step 115 step-time 0.0079. Epoch loss 9.3503
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:115 Step 116 step-time 0.0100. Epoch loss 12.9964
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:116 Step 117 step-time 0.0090. Epoch loss 5.0640
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000
+EPOCH:117 Step 118 step-time 0.0090. Epoch loss 11.4756
+val	LABEL A:100.0000 P:100.0000 R:100.0000 F1 score:100.0000

@@ -1,0 +1,128 @@
+薄	荷	是	你	们	什	么	时	候	投	资	的	？
+B-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+你	们	投	资	了	七	牛	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	O	O
+英	语	流	利	说	被	你	们	投	资	了	吗	？
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+UCloud	被	你	们	投	资	了	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	有	没	有	投	资	名	片	提	名	王	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O
+UCloud	是	你	们	什	么	时	候	投	资	的	？
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+Ruff	是	你	们	什	么	时	候	投	资	的	？
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+Glow	是	不	是	你	们	投	资	的	？
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+Glow	是	你	们	投	资	的	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	有	没	有	投	资	Glow	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+你	们	有	没	有	投	资	英	语	流	利	说	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O
+UCloud	是	你	们	投	资	的	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	有	投	资	英	语	流	利	说	吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O	O
+你	们	投	资	了	Glow	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+你	们	有	没	有	投	资	七	牛	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	O
+薄	荷	被	你	们	投	资	了	吗	？
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	有	投	资	薄	荷	吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	O	O
+你	们	有	没	有	投	资	Ruff	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+你	们	投	资	了	薄	荷	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	O	O
+谁	投	资	的	七	牛	？
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	O
+Glow	是	你	们	什	么	时	候	投	资	的	？
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+你	们	投	资	了	英	语	流	利	说	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O	O
+你	们	有	投	资		吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+薄	荷	是	你	们	投	资	的	吗	？
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+Ruff	被	你	们	投	资	了	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	投	资	了	UCloud	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+英	语	流	利	说	是	不	是	你	们	投	资	的	？
+B-company	I-company	I-company	I-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+Ruff	是	你	们	投	资	的	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	有	没	有	投	资	UCloud	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+Glow	被	你	们	投	资	了	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+名	片	提	名	王	被	你	们	投	资	了	吗	？
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	有	投	资		吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+七	牛	是	不	是	你	们	投	资	的	？
+B-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+谁	投	资	的	名	片	提	名	王	？
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O
+英	语	流	利	说	是	你	们	投	资	的	吗	？
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+七	牛	是	你	们	投	资	的	吗	？
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+七	牛	是	你	们	什	么	时	候	投	资	的	？
+B-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+Ruff	是	不	是	你	们	投	资	的	？
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+你	们	有	没	有	投	资	薄	荷	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	I-company	O
+你	们	投	资	了	名	片	提	名	王	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O	O
+谁	投	资	的	英	语	流	利	说	？
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	I-company	I-company	I-company	O
+你	们	有	投	资		吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+Stringkly	被	你	们	投	资	了	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+谁	投	资	的	薄	荷	？
+B-ask-investor	B-relation	I-relation	O	B-company	I-company	O
+薄	荷	是	不	是	你	们	投	资	的	？
+B-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+你	们	有	投	资	名	片	提	名	王	吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	I-company	I-company	I-company	O	O
+Stringkly	是	不	是	你	们	投	资	的	？
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+UCloud	是	不	是	你	们	投	资	的	？
+B-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+你	们	有	投	资	七	牛	吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	I-company	O	O
+英	语	流	利	说	是	你	们	什	么	时	候	投	资	的	？
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+谁	投	资	的	Ruff	？
+B-ask-investor	B-relation	I-relation	O	B-company	O
+谁	投	资	的	Stringkly	？
+B-ask-investor	B-relation	I-relation	O	B-company	O
+名	片	提	名	王	是	你	们	什	么	时	候	投	资	的	？
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+Stringkly	是	你	们	什	么	时	候	投	资	的	？
+B-company	O	B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O
+七	牛	被	你	们	投	资	了	吗	？
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	有	投	资		吗	？
+B-investor	I-investor	O	B-relation	I-relation	B-company	O	O
+你	们	有	没	有	投	资	Stringkly	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O
+名	片	提	名	王	是	不	是	你	们	投	资	的	？
+B-company	I-company	I-company	I-company	I-company	O	O	O	B-investor	I-investor	B-relation	I-relation	O	O
+谁	投	资	的	UCloud	？
+B-ask-investor	B-relation	I-relation	O	B-company	O
+谁	投	资	的	Glow	？
+B-ask-investor	B-relation	I-relation	O	B-company	O
+你	们	投	资	了	Ruff	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+Stringkly	是	你	们	投	资	的	吗	？
+B-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+你	们	投	资	了	Stringkly	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	O	O
+名	片	提	名	王	是	你	们	投	资	的	吗	？
+B-company	I-company	I-company	I-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O

@@ -1,0 +1,13 @@
+_PAD
+O
+I-company
+B-company
+I-relation
+B-relation
+O
+
+I-investor
+B-investor
+I-ask-time
+B-ask-time
+B-ask-investor

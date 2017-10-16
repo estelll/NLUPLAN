@@ -1,0 +1,15 @@
+你	们	投	资	的	薄	荷	吗	？
+B-investor	I-investor	B-relation	I-relation	O	B-company	I-company	O	O
+
+途	牛	是	不	是	你	们	投	的	啊	？
+O	I-company	O	O	O	B-investor	I-investor	B-relation	O	O	O
+
+你	们	有	没	有	投	资	Glow	呢	？
+B-investor	I-investor	O	O	O	B-relation	I-relation	B-company	O	O
+
+你	们	什	么	时	候	投	资	的	UCloud	？
+B-investor	I-investor	B-ask-time	I-ask-time	I-ask-time	I-ask-time	B-relation	I-relation	O	O	O
+
+七	牛	被	你	们	投	资	了	吗	？
+B-company	I-company	O	B-investor	I-investor	B-relation	I-relation	O	O	O
+
